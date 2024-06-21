@@ -182,10 +182,7 @@ public class XpackShareManage {
     }
 
     public XpackShareProxyVO proxyInfo(XpackShareProxyRequest request) {
-        boolean inIframeError = request.isInIframe() && !LicenseUtil.licenseValid();
-        if (inIframeError) {
-            return new XpackShareProxyVO();
-        }
+        boolean inIframeError = false;
         QueryWrapper<XpackShare> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("uuid", request.getUuid());
         XpackShare xpackShare = xpackShareMapper.selectOne(queryWrapper);
