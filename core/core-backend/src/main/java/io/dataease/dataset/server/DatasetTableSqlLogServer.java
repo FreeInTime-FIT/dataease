@@ -2,7 +2,7 @@ package io.dataease.dataset.server;
 
 import io.dataease.api.dataset.DatasetTableSqlLogApi;
 import io.dataease.api.dataset.dto.SqlLogDTO;
-import io.dataease.dataset.manage.DatasetTableSqlLogManage;
+import io.dataease.dataset.manages.DatasetTableSqlLogManage;
 import jakarta.annotation.Resource;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

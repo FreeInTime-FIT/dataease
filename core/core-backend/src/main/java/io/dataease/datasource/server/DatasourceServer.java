@@ -17,7 +17,7 @@ import io.dataease.constant.DataSourceType;
 import io.dataease.constant.LogOT;
 import io.dataease.constant.LogST;
 import io.dataease.dataset.dto.DatasourceSchemaDTO;
-import io.dataease.dataset.manage.DatasetDataManage;
+import io.dataease.dataset.manages.DatasetDataManage;
 import io.dataease.dataset.utils.TableUtils;
 import io.dataease.datasource.dao.auto.entity.*;
 import io.dataease.datasource.dao.auto.mapper.CoreDatasourceMapper;

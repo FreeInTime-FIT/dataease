@@ -5,7 +5,7 @@ import io.dataease.api.dataset.dto.DatasetTableDTO;
 import io.dataease.api.dataset.dto.EnumValueRequest;
 import io.dataease.api.dataset.dto.PreviewSqlDTO;
 import io.dataease.api.dataset.union.DatasetGroupInfoDTO;
-import io.dataease.dataset.manage.DatasetDataManage;
+import io.dataease.dataset.manages.DatasetDataManage;
 import io.dataease.dto.dataset.DatasetTableFieldDTO;
 import io.dataease.utils.LogUtil;
 import jakarta.annotation.Resource;

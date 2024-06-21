@@ -8,7 +8,7 @@ import io.dataease.api.dataset.union.DatasetGroupInfoDTO;
 import io.dataease.api.dataset.vo.DataSetBarVO;
 import io.dataease.constant.LogOT;
 import io.dataease.constant.LogST;
-import io.dataease.dataset.manage.DatasetGroupManage;
+import io.dataease.dataset.manages.DatasetGroupManage;
 import io.dataease.log.DeLog;
 import io.dataease.model.BusiNodeRequest;
 import io.dataease.model.BusiNodeVO;
